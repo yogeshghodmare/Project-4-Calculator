@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;
+0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,
+9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;
+1,9..40,900;1,9..40,1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100;200;300;
+400;500;600;700;800;900&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,
+900&family=Ms+Madi&family=Pacifico&family=Sacramento&family=Secular+One&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Document</title>
+    
+</head>
+<body>
+   
+    <div class="a">
+    <div id="display">
+        <p id="display1">Calculator</p>
+    </div>
+
+    <div class="div2">
+        <div class="level1">
+            <button onclick="getValue('7')">7</button>
+            <button id="l8" onclick="getValue('8')">8</button>
+            <button id="l9" onclick="getValue('9')">9</button>
+            <button class="del" onclick="deleteDigit()">DEL</button>
+        </div>
+        <div class="level2">
+            <button onclick="getValue('4')">4</button>
+            <button onclick="getValue('5')">5</button>
+            <button onclick="getValue('6')">6</button>
+            <button onclick="getValue('+')">+</button>
+        </div>
+        <div class="level3">
+            <button onclick="getValue('1')">1</button>
+            <button onclick="getValue('2')">2</button>
+            <button onclick="getValue('3')">3</button>
+            <button onclick="getValue('-')">-</button>
+        </div>
+        <div class="level4">
+            <button onclick="getValue('.')">.</button>
+            <button onclick="getValue('0')">0</button>
+            <button onclick="getValue('/')">/</button>
+            <button onclick="getValue('x')">x</button>
+        </div>
+        <div class="level5">
+            <button class="l5" onclick="reset()">RESET</button>
+            <button class="l6" onclick="calculate()">=</button>
+            
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
